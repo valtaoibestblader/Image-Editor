@@ -13,13 +13,13 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("Update channel", url="https://t.me/PigasusUpdates"),
+                        InlineKeyboardButton("Support Chat", url="https://t.me/Pigasussupport"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Group mangement bot",
+                            url="http://t.me/VALTAOITHEBOT",
                         )
                     ],
                 ]
@@ -40,12 +40,12 @@ async def help(client, message):
                 [
                     [
                         InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("Update", url="https://t.me/PigasusUpdates"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Check group mangement bot",
+                            url="http://t.me/VALTAOITHEBOT",
                         )
                     ],
                 ]
@@ -70,8 +70,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Group mangement bot",
+                            url="http://t.me/VALTAOITHEBOT",
                         )
                     ],
                 ]
